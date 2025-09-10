@@ -33,7 +33,7 @@ const projectList = [
   {
     title: "Visual Basic Simple Calculator",
     description:
-      "My first ever Visual Basic project, I started it to get my feet wet with this Microsoft programing language.",
+      "My first ever Visual Basic project, I started it to get my feet wet with this Microsoft programming language.",
     url: "https://github.com/Xhaust/VB-Simple-Calculator",
   },
 ];
