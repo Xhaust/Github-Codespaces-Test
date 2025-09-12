@@ -46,7 +46,7 @@ const App = () => {
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
-      <Education />
+      <Education education={siteProps.education} />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );
