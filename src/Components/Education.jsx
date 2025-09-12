@@ -1,18 +1,23 @@
 import React from "react";
 
+const Education = () => {
+  return (
+    <section className="padding" id="education">
+      <h2 style={{ textAlign: "center" }}>Education</h2>
+      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+        <div className="container">
+          <div className="box">
+            <h3 style={{ flexBasis: "40px" }}>Barnett Technical University</h3>
+            <p className="small">UI/UX Student (2022 - Present)</p>
+            <p className="small">
+              Currently studying user interface and user experience design with a focus on
+              accessibility and inclusivity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
-const Education = ({ education }) => {
-    return (
-        <section id="education" className="light">
-            <h2>Education</h2>
-            {education.map((edu, index) => (
-                <div key={index} style={{ marginBottom: "1rem" }}>
-                    <h3>{edu.degree}</h3>
-                    <p>{edu.institution}</p>
-                    <p>{edu.startDate} - {edu.endDate}</p>
-                    {edu.details && <p>{edu.details}</p>}
-                </div>
-            ))}
-        </section>
-    );
-}
+export default Education;
